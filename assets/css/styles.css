@@ -8,12 +8,23 @@ html {
 
 body {
   color: #ffffff;
-  background-color: green;
+  background-color: #000000;
   font-family: 'Raleway', sans-serif;
 }
 
+/* TRANSITION PARA EL FONDO DEL NAV */ 
+/*.navscroll {*/
+  /*transition:background-color 2000ms; */
+/*}*/
+
 .navbar {
   position: fixed;
+  z-index: 1;
+}
+
+.navbar-bg-scroll {
+  background-color: #000000;
+  transition: background-color 2s ease;
 }
 
 .navbar-brand {
@@ -25,4 +36,13 @@ body {
   font-size: 25px;
   font-weight: 400;
   /*text-transform: uppercase;*/
+}
+
+.cardImg {
+  height: 200px;
+}
+
+.cardImg img {
+  height: 100%;
+  object-fit: cover;
 }
