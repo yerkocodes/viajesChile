@@ -1,0 +1,28 @@
+* {
+
+}
+
+html {
+
+}
+
+body {
+  color: #ffffff;
+  background-color: green;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+}
+
+.navbar-brand {
+  width: 40px;
+  text-align: left;
+}
+
+.navbar-brand-text {
+  font-size: 25px;
+  font-weight: 400;
+  /*text-transform: uppercase;*/
+}
